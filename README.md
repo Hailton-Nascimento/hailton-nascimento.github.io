@@ -12,19 +12,15 @@
 Página pessoal com os projetos que desenvolvi ao longo da jornada de prendizado para divulgação pessoal.
 
 
-## Projetos
-<p align="center">
-  <img src="img/00.gif" alt="Animated Gif">
-<p>
 
 
 
 
-
+<h1 align="center">
 
 ## Jogo Da Memória
-
 <img src="img/projetos/JogoDaMemoria/00.gif" alt>
+</h1>
 
 <h3>Nesse projeto, o desafio foi criar um jogo da memória utilizando apenas HTML, CSS e Javascript, trabalhando com efeitos 3D no CSS e lógica de programação, manipulação do DOM e de Array, um projeto super divertido, com muita
 versatilidade, sendo possível alterar quantidade de cartas e a temática das imagens. Desenvolvido para Aprendizado e aprimoramento de Javascript.
@@ -32,9 +28,12 @@ versatilidade, sendo possível alterar quantidade de cartas e a temática das im
 
 <br>
 
-## Jogo da Velha
+<h1 align="center">
 
+## Jogo da Velha
 <img src="img/projetos/JogoDaVelha/00.gif" alt>
+
+</h1>
 
 <h3>Projeto muito desafiador, com logicas bastante complexas, foi desenvolvido em HTML, CSS, Javascript. O modulo de jogador autônomo precisou de uma atenção especial para ser desenvolvido. Os pontos são salvos no banco de dados
 do Browser (localStorage).</h3>
@@ -42,9 +41,11 @@ do Browser (localStorage).</h3>
 <br>
 
 
-## Amazon Clone
+<h1 align="center">
 
+## Amazon Clone
 <img src="img/projetos/AmazonTailwind/00.gif" alt>
+</h1>
 
 <h3>
 Clone da página Oficial da Amazon, utilizando o Framework Tailwind para praticar a utilização do mesmo no desenvolvimento de Layout responsivo.
@@ -54,9 +55,11 @@ Clone da página Oficial da Amazon, utilizando o Framework Tailwind para pratica
 <br>
 
 
-## Nascimento Host
+<h1 align="center">
 
+## Nascimento Host
 <img src="img/projetos/NascimentoHost/00.gif" alt>
+</h1>
 
 <h3>
 Projeto criado para oferecer hospedagem de páginas Web e domínios de sites, com um layout básico utilizando Html e CSS para aprendizado e aperfeiçoamento no desenvolvimento de Layout totalmente responsivo.
@@ -66,9 +69,11 @@ Projeto criado para oferecer hospedagem de páginas Web e domínios de sites, co
 <br>
 
 
-## Conversor de Moedas
+<h1 align="center">
 
+## Conversor de Moedas
 <img src="img/projetos/ConversorMoeda/00.gif" alt>
+</h1>
 
 <h3>Cotação e Conversor de moedas em reais. A aplicação que consulte através de uma api externa a última cotação da moeda desejada e faz a conversar para reais. Projeto desenvolvido para aprendizado de HTML5, CSS, JavaScript, proposto
 em uma imersão Dev da plataforma alura.</h3>
@@ -77,9 +82,11 @@ em uma imersão Dev da plataforma alura.</h3>
 <br>
 
 
-## Urna Eletrônica
+<h1 align="center">
 
+## Urna Eletrônica
 <img src="img/projetos/UrnaEletronica/00.gif" alt>
+</h1>
 
 <h3>Projeto desenvolvido para aprendizado de Html, Css, Javascript, foi proposto pelo perfil no youtube Bonieky Lacerda. A aplicação e um simulador funcional da Urna Eletrônica Brasileira, com todas as funcionalidades. Com simulação
 de Voto NULO, BRANCO, voto na Legenda, no vereador, prefeito com seu vice-prefeito.
@@ -90,9 +97,11 @@ de Voto NULO, BRANCO, voto na Legenda, no vereador, prefeito com seu vice-prefei
 
 
 
-## Spotify Clone
+<h1 align="center">
 
+## Spotify Clone
 <img src="img/projetos/SpotifyTailwind/00.gif" alt>
+</h1>
 
 <h3>Clone da página do Oficial do Spotify, utilizando o Framework Tailwind para praticar a utilização do mesmo no desenvolvimento de Layout responsivo, já que é uma das premissas do Tailwindcss.</h3>
 
@@ -101,9 +110,11 @@ de Voto NULO, BRANCO, voto na Legenda, no vereador, prefeito com seu vice-prefei
 <br>
 
 
-## Doceria Ana Maria
+<h1 align="center">
 
+## Doceria Ana Maria
 <img src="img/projetos/DoceriaAnaMaria/00.gif" alt>
+</h1>
 
 <h3>
     Página fictícia de uma doceria, projeto desenvolvido em Html e Css para aprendizado e aperfeiçoamento de desenvolvimento de Layout básico de uma página institucional.
@@ -113,9 +124,11 @@ de Voto NULO, BRANCO, voto na Legenda, no vereador, prefeito com seu vice-prefei
 <br>
 
 
-## Clima Tempo
+<h1 align="center">
 
+## Clima Tempo
 <img src="img/projetos/PrevisaoTempo/00.gif" alt>
+</h1>
 
 <h3>Projeto simples de consulta de previsão do tempo para uma localidade na data atual. Projeto desenvolvido com JavaScript, HTML e CSS para aprendizado de fetch() e chamada await(), utilizando api.</h3>
 
@@ -127,10 +140,13 @@ de Voto NULO, BRANCO, voto na Legenda, no vereador, prefeito com seu vice-prefei
 
 
                                                     
-## Whatsapp Web Clone
 
+<h1 align="center">
+
+## Whatsapp Web Clone
 <img src="img/projetos/WhatsAppWeb/00.gif" alt>
 
+</h1>
 <h3>
 Clone página do WhatsApp Web, com um layout básico utilizando Html e CSS para aprendizado e aperfeiçoamento no desenvolvimento de Layout.
 </h3>
