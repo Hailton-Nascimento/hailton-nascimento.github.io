@@ -145,7 +145,7 @@
         
         .sidebar {
             width: 22rem;
-            height: 100vh;
+            height: 100%;
             background: rgba(3, 3, 3, 0.7);
             position: fixed;
             right: -22rem;
@@ -537,7 +537,7 @@
         }
         
         .sessao-projetos .sessao-header {
-            padding: 8%;
+            padding: 5rem 8% 0;
         }
         
         .sessao-projetos h2 {
@@ -762,10 +762,10 @@
         .sessao-contato {
             position: relative;
             width: 100%;
-            background: linear-gradient( -145deg, rgba(229, 245, 0, 0.1), rgba(255, 153, 0, 0.1)), url(../img/bg-contato.jpg);
+            background: url(../img/bg-contato.jpg);
             backdrop-filter: opacity(01);
             background-blend-mode: hard-light;
-            padding: 4% 8%;
+            padding: 4%;
             overflow: hidden;
         }
         
@@ -786,9 +786,9 @@
         .contato .box {
             font-family: var(--font-secundary);
             height: auto;
-            max-width: 34rem;
-            min-width: 28rem;
             height: 24rem;
+            max-width: 36rem;
+            min-width: 28rem;
             flex: 1 1 30%;
             position: relative;
             padding: 1rem;
@@ -822,9 +822,6 @@
         .contato h3 {
             font-size: 30px;
             font-weight: 600;
-            /* background: linear-gradient(to right, #f57c00, #ff9800);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
         }
         
         .contato p {
