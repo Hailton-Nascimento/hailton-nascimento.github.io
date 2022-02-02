@@ -329,7 +329,7 @@
         color: rgb(255, 255, 255);
         font-size: 2rem;
         line-height: 2.5rem;
-        font-weight: 500;
+        font-weight: 600;
         text-shadow: rgba(0, 0, 0, 0.4) 0.2rem 0.2rem;
         margin-bottom: 1.5rem;
         text-align: center;
@@ -340,6 +340,7 @@
         margin-bottom: 1.5rem;
         font-size: 2rem;
         line-height: 2.5rem;
+        letter-spacing: 0.2rem;
         font-weight: 600;
         font-family: var(--font-secundary);
         color: #ebebeb;
@@ -428,7 +429,7 @@
         position: relative;
         width: 100%;
         background: linear-gradient(#eca35a30, transparent, #f5b55650);
-        padding: 8%;
+        padding: 5rem 8%;
         overflow: hidden;
     }
     
@@ -536,10 +537,11 @@
         position: relative;
         width: 100hw;
         background: linear-gradient(#eca35a30, transparent, #f5b55650);
+        padding-bottom: 5rem;
     }
     
     .sessao-projetos .sessao-header {
-        padding: 5rem 8% 0;
+        padding: 5rem 8%;
     }
     
     .sessao-projetos h2 {
@@ -557,6 +559,15 @@
         position: relative;
         margin: 2rem;
         border-radius: 2rem;
+        height: 30rem;
+        margin-bottom: 10rem;
+        transition: all 0.5s linear;
+    }
+    
+    .projetos .card:hover,
+    .projetos .card:focus {
+        height: 60rem;
+        margin-bottom: 5rem;
     }
     
     .projetos .card .face {
@@ -569,7 +580,7 @@
         background: #333;
         z-index: 1;
         cursor: pointer;
-        transform: translateY(10rem);
+        transform: translateY(5rem);
         box-shadow: 0px 1rem 2.5rem rgba(0, 0, 0, 0.5);
         transition: 0.5s;
         border-top-right-radius: 2rem;
@@ -643,6 +654,7 @@
     .projetos .card .face img {
         width: 16.66%;
         float: left;
+        object-fit: cover;
         object-position: top;
     }
     
@@ -681,7 +693,7 @@
         padding: 1rem;
         border-radius: 2rem;
         box-shadow: 0px 1rem 2.5rem rgba(0, 0, 0, 0.5);
-        transform: translateY(-10rem);
+        transform: translateY(-15rem);
     }
     
     .projetos .card:hover .face.face2,
@@ -861,11 +873,11 @@
     
     footer {
         width: 100%;
-        height: 10rem;
         background: #272625;
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 3rem;
     }
     
     .footer-content {
@@ -911,6 +923,12 @@
     }
     /* Resposividade */
     
+    @media (min-width: 1100px) {
+        .projetos .card {
+            height: 30rem;
+        }
+    }
+    
     @media (max-width: 1100px) {
         .projetos {
             grid-template-columns: 1fr;
@@ -918,6 +936,9 @@
             margin: auto;
         }
         .projetos .card .face.face1 {
+            height: 40rem;
+        }
+        .projetos .card {
             height: 40rem;
         }
     }
@@ -930,6 +951,9 @@
             left: 0;
         }
         .projetos .card .face.face1 {
+            height: 35rem;
+        }
+        .projetos .card {
             height: 35rem;
         }
     }
@@ -954,13 +978,17 @@
             width: 30%;
         }
         .footer-content p {
-            font-family: var(--font-secundary);
             width: 80%;
+            margin-bottom: 3rem
         }
         .footer-content {
-            width: 80%;
+            width: 100%;
+            flex-direction: column;
         }
         .projetos .card .face.face1 {
+            height: 30rem;
+        }
+        .projetos .card {
             height: 30rem;
         }
     }
@@ -978,6 +1006,12 @@
     @media (max-width: 500px) {
         .projetos .card .face.face1 {
             height: 25rem;
+        }
+        .projetos .card {
+            height: 25rem;
+        }
+        .projetos {
+            max-width: 100%;
         }
     }
     
@@ -997,10 +1031,10 @@
         .sessao-header h2 {
             text-align: justify;
         }
-        .projetos {
-            max-width: 100%;
-        }
         .projetos .card .face.face1 {
+            height: 20rem;
+        }
+        .projetos .card {
             height: 20rem;
         }
     }
